@@ -11,5 +11,12 @@ void main(){
   var d = 10;
   var e= c-d;
   print(a-b);
+  print(c-d);
   print(e);
+
+  // dart data type in number
+  // use int or double
+  int number = 30;
+  int number1 = 50;
+  print(number1+number);
 }
