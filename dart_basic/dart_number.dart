@@ -6,4 +6,10 @@ void main(){
   var a = 22;
   var b =10;
   print(a+b);
+
+  var c = 20;
+  var d = 10;
+  var e= c-d;
+  print(a-b);
+  print(e);
 }
