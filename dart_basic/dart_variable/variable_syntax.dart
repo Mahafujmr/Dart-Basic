@@ -54,8 +54,25 @@ print(Name); // Doe
 .......................
 
 
+.....................
+5)Use Meaningful Names:
+Choose variable names that describe their purpose.
+
+var age = 25;        // Meaningful
+var x = 25;          // Not clear
+var userAge = 25;    // Better
+........................
 
 
+
+....................
+6)Best Practices (Conventions)
+Use Camel Case for Variable Names:
+Start with a lowercase letter, and capitalize subsequent words.
+
+var firstName = 'Alice';
+var userAge = 25;
+..................
 
 
  */
