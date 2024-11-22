@@ -110,4 +110,18 @@ const: Value is fixed at compile-time.
 .........
 dynamic: Can hold any type and change types later.
 .........................
+
+
+.........
+Example Code
+void main() {
+  var userName = 'John';  // Type inferred as String
+  int age = 25;           // Explicitly declared as int
+  final city = 'New York'; // Final value, cannot change
+  const double pi = 3.14159; // Constant value at compile-time
+
+  print('Name: $userName, Age: $age, City: $city, Pi: $pi');
+}
+
+..............
  */
