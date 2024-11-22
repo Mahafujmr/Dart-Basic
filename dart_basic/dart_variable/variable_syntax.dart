@@ -18,6 +18,42 @@ var _age = 25;      // Valid
 var $salary = 5000; // Valid
 .......................
 
+................
+2) No Spaces Allowed:
+
+Variable names cannot contain spaces. For multi-word names,
+ use camelCase.
+
+var firstName = 'Alice';  // Valid (camelCase)
+var first_name = 'Alice'; // Valid, but less common
+// var first name = 'Alice'; // Invalid
+....................
+
+
+.....................
+3)Cannot Use Reserved Keywords:
+
+Reserved Dart keywords like int, class, void, etc.,
+ cannot be used as variable names.
+
+// var class = 'Example'; // Invalid
+var myClass = 'Example'; // Valid
+.........................
+
+
+....................
+4)Case-Sensitive:
+
+Variable names are case-sensitive.
+name and Name are treated as two different variables.
+
+var name = 'John';
+var Name = 'Doe';
+print(name); // John
+print(Name); // Doe
+.......................
+
+
 
 
 
