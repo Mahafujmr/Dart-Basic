@@ -4,4 +4,8 @@ void main(){
   var b = 10; // variable declare = var , variable b , value 10
   print(a+b);
 
+  var name ='tuhin';
+  var age = 20;
+  print('this is my information ${name} ${age}');
+
 }
