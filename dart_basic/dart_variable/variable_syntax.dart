@@ -66,13 +66,26 @@ var userAge = 25;    // Better
 
 
 ....................
-6)Best Practices (Conventions)
+1)Best Practices (Conventions)
 Use Camel Case for Variable Names:
 Start with a lowercase letter, and capitalize subsequent words.
 
 var firstName = 'Alice';
 var userAge = 25;
 ..................
+
+
+
+...................
+2)Keep Names Consistent:
+Use the same naming style throughout your code.
+
+Avoid Using Non-English Characters:
+While Dart supports Unicode, it’s best to stick to
+English characters for better readability
+
+var নাম = 'জন'; // Valid but not recommended
+..............................
 
 
  */
